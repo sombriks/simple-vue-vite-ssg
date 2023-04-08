@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite-ssg build",
-    "build:gh-pages": "vite-ssg build --base-path=/simple-vue-vite-ssg",
+    "build:gh-pages": "vite-ssg build --base=/simple-vue-vite-ssg",
+    "build:gh-pages4": "vite build --base=/simple-vue-vite-ssg",
     "preview": "vite preview"
   },
   "dependencies": {
