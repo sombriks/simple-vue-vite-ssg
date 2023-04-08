@@ -1,4 +1,4 @@
-# Simple vue vite ssh
+# Simple vue vite ssg
 
 Sample project to use vite plugin for static site generation
 
