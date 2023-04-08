@@ -7,7 +7,6 @@
     "dev": "vite",
     "build": "vite-ssg build",
     "build:gh-pages": "vite-ssg build --base=/simple-vue-vite-ssg",
-    "build:gh-pages4": "vite build --base=/simple-vue-vite-ssg",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -17,7 +16,7 @@
     "@vitejs/plugin-vue": "^4.1.0",
     "@vueuse/head": "^1.1.23",
     "vite": "^4.2.0",
-    "vite-ssg": "^0.22.1",
+    "vite-ssg": "^0.22.2",
     "vue-router": "^4.1.6"
   }
 }
