@@ -1,0 +1,21 @@
+{
+  "name": "simple-vue-vite-ssg",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite-ssg build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vueuse/head": "^1.1.23",
+    "vite": "^4.2.0",
+    "vite-ssg": "^0.22.1",
+    "vue-router": "^4.1.6"
+  }
+}
