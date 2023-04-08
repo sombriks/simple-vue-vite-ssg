@@ -40,7 +40,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: npm ci
-      - run: npm run build --if-present
+      - run: npm run build:gh-pages --if-present # build for github pages
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
@@ -53,3 +53,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        

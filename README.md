@@ -32,6 +32,19 @@ export const createApp = ViteSSG(App)
 
 Everything else in development mode just works as expected.
 
+## Note on gh-pages publishing
+
+If you decide to use github pages to publish, enable it on project settings and
+then select the github action workflow publish.
+
+Then replace the original action with
+[build+publish action](.github/workflows/static.yml)
+available in this project.
+
+Last but not least important, setup your
+[public base path](https://vitejs.dev/guide/build.html#public-base-path)
+so your static site has css and js properly loaded.
+
 ---
 
 ## Vue 3 + Vite
