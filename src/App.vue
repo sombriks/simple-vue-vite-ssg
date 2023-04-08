@@ -1,5 +1,18 @@
 <script setup>
+import { useHead } from '@vueuse/head'
 import HelloWorld from './components/HelloWorld.vue'
+useHead({
+  title: 'Simple Vue/Vite Static site Generator Example',
+  meta: [
+    {
+      name: 'description',
+      content: 'generating some SEO-friendly vue application',
+    },{
+      name: 'keywords',
+      content: 'vite, vue, ssg, vite-ssg, static, site, generator',
+    },
+  ],
+})
 </script>
 
 <template>
